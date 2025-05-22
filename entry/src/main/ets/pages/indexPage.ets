@@ -55,5 +55,9 @@ items: Array<string> = ['组长:科瑞','技术总监：柴飞扬','成员:王�
           router.pushUrl({ 'url': 'pages/Index' })
         })
     }
+    .backgroundImage($rawfile('2.jpg'), ImageRepeat.NoRepeat)
+    .backgroundImageSize(ImageSize.Cover)
+    .expandSafeArea([SafeAreaType.SYSTEM],[SafeAreaEdge.TOP,SafeAreaEdge.BOTTOM])
+
   }
 }

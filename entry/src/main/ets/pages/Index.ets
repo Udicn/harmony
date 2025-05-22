@@ -330,6 +330,9 @@ struct Index {
     })
     .layoutWeight(1) // 让Tabs占据剩余空间
   }
+  .backgroundImage($rawfile('2.jpg'), ImageRepeat.NoRepeat)
+  .backgroundImageSize(ImageSize.Cover)
+  .expandSafeArea([SafeAreaType.SYSTEM],[SafeAreaEdge.TOP,SafeAreaEdge.BOTTOM])
   .width('100%')
   .height('100%')
   }
